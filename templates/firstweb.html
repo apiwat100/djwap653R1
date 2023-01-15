@@ -1,0 +1,18 @@
+
+{% extends 'Base.html' %}
+{% block content %}
+
+{% load static %}
+
+    <meta charset="UTF-8">
+    <title>This my sample web</title>
+
+<center bgcolor="#faebd7" text="blue">
+        <h1>apiwat maliwong</h1>
+        <center><img src="{% static 'images/bg.jpg' %}"width="200"></center>
+
+<center>
+         <a href="/secondpage " class="btn btn-danger "> Go to secondpage</a>
+        <a href="/thirdpage " class="btn btn-primary"> Go to thirdpage</a>
+</center>
+{% endblock %}

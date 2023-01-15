@@ -1,0 +1,48 @@
+{% extends 'Base.html' %}
+{% load static %}
+{% block content %}
+    <h1>Welcome to Second page</h1>
+    <h2>Today is: Monday</h2>
+<br>
+    <p class="bg-info text-center text-danger">
+        Bootstrap คือชุดคำสั่งที่ประกอบด้วยภาษา CSS, HTML และ Javascript เป็นชุดคำสั่งที่ถูกพัฒนาขึ้นมาเพื่อกำหนดกรอบหรือรูปแบบการพัฒนาเว็บไซต์ในส่วนของการปฏิสัมพันธ์กับผู้ใช้งานเว็บไซต์ ( User Interface )
+        เราจึงสามารถเรียก Bootstrapว่าเป็น Front-end framework คือใช้สำหรับ พัฒนาเว็บไซต์ส่วนการแสดงผล ซึ่งแตกต่างจากภาษาประเภท Server Side Scriptอย่าง PHP, Python หรือภาษาอื่น ๆ
+    </p><br><br><br>
+
+    <a href="/firstweb " class="btn btn-danger"> Go to firstweb</a>
+    <a href="/thirdpage " class="btn btn-primary"> Go to thirdpage</a>
+
+    <table class="table table-danger table-striped table-hover table-bordered" >
+        <tr>
+            <th>รหัสวิชา</th>
+            <th>ชื่อวิชา</th>
+            <th>หน่วยกิต</th>
+            <th>เกรด</th>>
+        </tr>
+        <tr>
+            <td align="center">32-406-201-301</td>
+            <td>การเขียนโปรแกรมประยุกต์เพื่องานธุรกิจดิจิทัล</td>
+            <td>3</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-201-302</td>
+            <td>ฝึกปฏิบัติการเขียนโปรแกรมประยุกต์เพื่องานธุรกิจดิจิทัล</td>
+            <td>1</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-201-202</td>
+            <td>ฝึกปฏิบัติระบบจัดการฐานข้อมูล</td>
+            <td>1</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-201-201</td>
+            <td>ระบบจัดการฐานข้อมูล</td>
+            <td>1</td>
+            <td>A</td>
+        </tr>
+    </table>
+</div>
+{%  endblock %}
