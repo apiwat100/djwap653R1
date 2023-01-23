@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Exapp.apps.ExappConfig',
     'ProfileApp.apps.ProfileappConfig',
-    'fontawesome_6'
+
 ]
 
 MIDDLEWARE = [
