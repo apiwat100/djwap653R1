@@ -3,10 +3,12 @@ from ProfileApp import views
 
 urlpatterns = [
     path('Home', views.Home, name='Home'),
-    path('firstweb', views.firstweb, name='firstweb'),
-    path('secondpage', views.secondpage, name='secondpage'),
-    path('thirdpage', views.thirdpage, name='thirdpage'),
-    path('HNY', views.HNY, name='HNY'),
+    path('edu', views.edu, name='Edu'),
+    path('interest', views.interest, name='interest'),
+    path('rolemodel', views.rolemodel, name='rolemodel'),
+    path('product', views.product, name='Product'),
+    path('showdata', views.showdata, name='showdata'),
+
 
 
 ]
