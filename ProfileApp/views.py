@@ -42,10 +42,10 @@ def showdata(request):
         ["DR.STONE Our Stone World", " 63/เล่ม", "images/dr.png"],
         ["Chain saw man", " 63/เล่ม", "images/ch.png"],
         ["ขังดวลแข้ง BLUELOCK", " 90/เล่ม", "images/1000_.jpg"],
-        ["วัน พีซ - One Piece", " 125/เล่ม", "images/One_piece.jpg"],
+        ["วัน พีซ - One Piece", " 125/เล่ม", "images/One_Piece.jpg"],
         ["Jujutsu kaisen-มหาเวทย์ผนึกมาร", " 72/เล่ม", "images/ju_.jpg"],
         ["SPYx FAMILY", " 99/เล่ม", "images/spy.png"],
-        ["ไฮคิว!! คู่ตบฟ้าประทาน", " 59/เล่ม", "images/cover.png"],
+        ["ไฮคิว!! คู่ตบฟ้าประทาน", " 59/เล่ม", "images/Cover.png"],
         ["ดาบพิฆาตอสูร", " 65/เล่ม", "images/ki.png"],
         ["Record of Ragnarok มหาศึกคนชนเทพ", " 115/เล่ม", "images/XXL.jpg"]
     ]
